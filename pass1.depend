@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1431200216 source:f:\c++ projects\pass1\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"Read_File.h"
+	<regex>
+
+1431107960 source:f:\c++ projects\pass1\read_file.cpp
+	"Read_File.h"
+	<iostream>
+	<bits/stdc++.h>
+	"Write_File.h"
+	<fstream>
+	<string>
+	<ctype.h>
+	<unordered_map>
+	<algorithm>
+	<functional>
+	<cctype>
+	<locale>
+	<regex>
+	<stdlib.h>
+
+1431106069 f:\c++ projects\pass1\read_file.h
+	<iostream>
+	<bits/stdc++.h>
+	"Write_File.h"
+	<fstream>
+	<string>
+	<unordered_map>
+	<regex>
+
+1430046266 f:\c++ projects\pass1\write_file.h
+	<iostream>
+	<bits/stdc++.h>
+	<fstream>
+	<string>
+	<regex>
+
+1430048194 source:f:\c++ projects\pass1\write_file.cpp
+	"Write_File.h"
+	<iostream>
+	<bits/stdc++.h>
+	<fstream>
+	<string>
+	<stdio.h>
+	<regex>
+
+1429399834 source:f:\c++ projects\pass1\hash_table.cpp
+	"Hash_Table.h"
+	<iostream>
+	<bits/stdc++.h>
+
+1429399808 f:\c++ projects\pass1\hash_table.h
+	<iostream>
+	<bits/stdc++.h>
+
+1431018759 source:f:\c++ projects\pass1\pass2.cpp
+	"pass2.h"
+	<iostream>
+	<bits/stdc++.h>
+	<fstream>
+	<string>
+	<unordered_map>
+
+1431018007 f:\c++ projects\pass1\pass2.h
+	<iostream>
+	<bits/stdc++.h>
+	<fstream>
+	<string>
+	<unordered_map>
+

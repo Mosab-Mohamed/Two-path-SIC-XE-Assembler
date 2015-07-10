@@ -1,0 +1,19 @@
+PROB1    START   FF
+HERE     LDS     #0
+         LDT     #1
+         LDA     #0
+RLOOP    TD      INDEV
+         JEQ     RLOOP
+         RD      INDEV
+         ORG     51
+         STCH    DATA
+         COMP    EOF
+         JEQ     COPY
+         ORG
+         ADDR    T,S
+         RSUB    
+COPY     RMO     S,A
+EOF      WORD    4
+INDEV    BYTE    X'F3'
+DATA     RESw    17
+         END     HERE
